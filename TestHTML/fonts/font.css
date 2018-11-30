@@ -1,0 +1,40 @@
+@font-face{
+    font-family: 'BlissLight';
+    src: url('BlissLight.eot');
+    src: url('BlissLight.eot?#iefix') format('embedded-opentype'),
+         url('BlissLight.woff') format('woff'),
+         url('BlissLight.ttf') format('truetype'),
+         url('BlissLight.svg#BlissLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'BlissPro-Bold';
+    src: url('BlissPro-Bold.eot');
+    src: url('BlissPro-Bold.eot?#iefix') format('embedded-opentype'),
+         url('BlissPro-Bold.woff') format('woff'),
+         url('BlissPro-Bold.ttf') format('truetype'),
+         url('BlissPro-Bold.svg#BlissPro-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'BlissPro-ExtraBold';
+    src: url('BlissPro-ExtraBold.eot');
+    src: url('BlissPro-ExtraBold.eot?#iefix') format('embedded-opentype'),
+         url('BlissPro-ExtraBold.woff') format('woff'),
+         url('BlissPro-ExtraBold.ttf') format('truetype'),
+         url('BlissPro-ExtraBold.svg#BlissPro-ExtraBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'BlissPro-LightItalic';
+    src: url('BlissPro-LightItalic.eot');
+    src: url('BlissPro-LightItalic.eot?#iefix') format('embedded-opentype'),
+         url('BlissPro-LightItalic.woff') format('woff'),
+         url('BlissPro-LightItalic.ttf') format('truetype'),
+         url('BlissPro-LightItalic.svg#Cairo-Light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
