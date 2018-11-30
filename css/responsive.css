@@ -1,0 +1,358 @@
+/* 1280 screen style */
+@media screen and ( device-width: 1280px ){
+    .container{
+        width:1240px;
+    }
+}
+/* 1366 screen style */
+@media screen and ( device-width: 1366px ){
+   
+}
+/* 1400 screen style */
+@media screen and ( device-width: 1400px ){
+}
+/* 1440 screen style */
+@media screen and ( device-width: 1440px ){
+   
+}
+/* 1600 screen style */
+@media screen and ( device-width: 1600px ){
+}
+/* 1680 screen style */
+@media screen and ( device-width: 1680px ){
+}
+/* 1920 screen style */
+@media screen and ( device-width: 1920px ){
+}
+@media screen and (max-width:1440px){
+         
+}
+@media screen and (max-width:1024px){   
+    .image-section .carousel-inner .item li{
+        width: 30.9%;
+    }
+    .vid-container{
+        padding-bottom: 60%;
+    }
+    .vid-list-container{
+		width:73%;	
+	}
+}
+@media screen and (max-width:900px){
+    .vid-container{
+        padding-bottom: 60%;
+    }
+    .event-list{
+        padding:0;
+    }
+    .container {
+        width: 800px;
+    }
+    .gallery-sec ul li{
+        padding:15px 14px 14px;
+    }
+}
+@media screen and (max-width:768px){
+    .image-section .carousel-inner .item li{
+        width: 30%;
+    }
+    .carousel-caption p{
+        font-size:28px;
+        line-height:36px;
+    }
+    .event-list{
+        padding:0;
+    }
+    .container {
+        width: 740px;
+    }
+    .list-icons{
+        top:auto;
+        bottom:10px;
+    }
+}
+@media screen and (max-width:767px){
+    header{
+        border-bottom:1px solid #ddd;
+    }
+    .search-form{
+        margin-top:10px;
+    }
+    .search-form .input{
+        display: none;
+    }
+    .menu-section{
+        left:-240px;
+        top:0;
+        width:240px;
+        height: 100%;
+        position: fixed;
+        background: #3E5769;
+        z-index: 999;
+        -webkit-transition: all 0.5s ease 0s;
+        -moz-transition: all 0.5s ease 0s;
+        -o-transition: all 0.5s ease 0s;
+        transition: all 0.5s ease 0s;
+        border-right:0;
+        overflow-y: scroll;
+    }
+    .menu-section.push-left{
+        left:0;
+    }
+    .menu-section ul{
+        margin: 0;
+    }
+    .navbar-default .navbar-nav > li > a{
+        color:#fff;
+        font-size:13px;
+        text-transform: none;
+    }
+    .navbar-default .navbar-nav > li{
+        background: none;
+        border-bottom: 1px solid #60727f;
+    }
+    .navbar-default .navbar-nav > li:hover a:before,
+    .navbar-default .navbar-nav > li.active a:before,
+    .navbar-default .navbar-nav > li.active:hover a:before,
+    .navbar-default,.navbar-default .navbar-toggle{
+        border:0;
+    }
+    .navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus{
+        background: none;
+    }
+    .navbar-default{
+        position: absolute;
+        right: 0;
+        top:18px;
+        background: none;
+        margin:0;
+    }
+    .home .navbar-default {
+        background: #fff;
+        border-color: #fff;
+    }
+    .home .navbar-default .navbar-nav > li.home-icon a{
+        background: none;
+        text-indent: 0;
+        width: auto;
+        height:auto;
+    }
+    .mob-menu{
+        display: block;
+    }
+    .mob-menu h2{
+        font:14px 'BlissPro-Bold',Arial;
+        color:#fff;
+        margin: 0;
+        padding:15px 0 10px;
+        border-bottom:1px solid #60727f;
+        text-transform: uppercase;
+    }
+    .close-menuicon{
+        position: absolute;
+        right: 10px;
+        top: 15px;
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+    }
+    .close-menuicon:before, .close-menuicon:after {
+        position: absolute;
+        left: 10px;
+        content: ' ';
+        height: 18px;
+        width: 2px;
+        background-color: #fff;
+    }
+    .close-menuicon:before {
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+    .close-menuicon:after {
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+    .home-banner .carousel-inner > .item > img{
+        height: 200px;
+    }
+    .home-banner .carousel-caption p{
+        padding:0;
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .main-section{
+        padding-top: 81px;
+    }
+    .home .main-section {
+        padding-top:80px;
+    }
+    footer .col-xs-12{
+        text-align: center;
+    }
+    .footer-nav{
+        float:none;
+        display: inline-block;
+        text-align: center;
+        margin-top:10px;
+        width:112px;
+    }
+    .copyright{
+        margin-top:20px;
+        text-align: center;
+        display: inline-block;
+        float: none !important;
+        width: 100%;
+    }
+    .container {
+        width:100%;
+    }
+    .home-section section{
+        padding:15px 10px 20px;
+        margin-bottom: 20px;
+    }
+    .event-list li h3{
+        width:calc(100% - 66px);
+    }
+    .usefullinks-section h3.section-title{
+        border:0;
+    }
+    .news-feeds{
+        width:100%;
+    }
+    .news-feeds .owl-nav{
+        top:-30px;
+        right:-20px;
+    }
+    .image-section .carousel-inner .item li{
+        width:30.5%;
+    }
+    .vid-container{
+        padding-bottom: 66%;
+    }
+    .vid-list-container{
+        width: 76%;
+        margin:18px 36px 0;
+    }
+    .quicklink-list{
+        min-height:auto; 
+    }
+    .navbar-toggle.collapse{
+        display: block;
+    }
+    .list-section .list-imgsec{
+        width:100%;
+        margin-right:0;
+        margin-bottom: 15px;
+    }
+    .list-section .list-imgcont{
+        width:100%;
+    }
+    .list-icons{
+        position: static;
+        margin: 10px auto 0;
+        display: inline-block;
+        text-align: center;
+        width:100%;
+    }
+    .list-icons .icon-list{
+        display: inline-block;
+        float: none;
+    }
+}
+@media screen and (min-width:100px) and (max-width:320px){
+    
+}
+@media screen and (min-width:321px) and (max-width:360px){
+
+}
+@media screen and (min-width:361px) and (max-width:375px){
+
+}
+@media screen and (min-width:376px) and (max-width:414px){
+
+}
+@media screen and (min-width:415px) and (max-width:480px){	
+    .vid-container{
+        padding-bottom:44%;
+    }
+    .vid-list-container{
+        width:84%;
+    }
+}
+@media screen and (min-width:481px) and (max-width:568px){
+
+}
+@media screen and (min-width:569px) and (max-width:640px){
+    .image-section .carousel-inner .item li,.image-section .carousel-inner .item li:nth-child(3n+3){
+        margin-right:10px;
+    }
+    .vid-container{
+        padding-bottom:33%;
+    }
+    .vid-list-container{
+        width:88%;
+    }
+}
+@media screen and (min-width:641px) and (max-width:667px){
+    .vid-container{
+        padding-bottom:32%;
+    }
+    .vid-list-container{
+        width:88%;
+    }
+}
+@media screen and (min-width:668px) and (max-width:736px){
+    .vid-container{
+        padding-bottom:29%;
+    }
+    .vid-list-container{
+        width:90%;
+    }
+}
+@media screen and (min-width:737px) and (max-width:767px){
+    .image-section .carousel-inner .item li,.image-section .carousel-inner .item li:nth-child(3n+3){
+        margin-right:4px;
+    }
+    .vid-container{
+        padding-bottom:28%;
+    }
+    .vid-list-container{
+        width:90%;
+    }
+}
+@media screen and (min-width:767px) and (max-width:812px){
+
+}
+@media screen and (min-width:100px) and (max-width:415px){
+
+}
+@media screen and (min-width:480px) and (max-width:767px){
+
+}
+@media screen and (min-width:568px) and (max-width:767px){    
+    .image-section .carousel-inner .item li{
+        width:145px;
+        margin-right:15px;
+    }
+    .image-section .carousel-inner .item li:nth-child(3n+3){
+        margin-right:15px;
+    }
+    .vid-container{
+        padding-bottom:38%;
+    }
+    .vid-list-container{
+        width:86%;
+    }
+}
+/* Max With Ipad Portrait Only */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait){
+    .vid-container{
+        padding-bottom: 60%;
+    }
+    .vid-list-container{
+        width: 75%;
+    }
+}
+/* Max With Ipad Landscape Only */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape){
+}

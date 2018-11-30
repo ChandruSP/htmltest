@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'icon-fonts';
+  src:  url('../fonts/icon-fonts.eot?evfxy8');
+  src:  url('../fonts/icon-fonts.eot?evfxy8#iefix') format('embedded-opentype'),
+    url('../fonts/icon-fonts.ttf?evfxy8') format('truetype'),
+    url('../fonts/icon-fonts.woff?evfxy8') format('woff'),
+    url('../fonts/icon-fonts.svg?evfxy8#icon-fonts') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="commonicon-"], [class*=" commonicon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icon-fonts' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.commonicon-add:before {
+  content: "\e905";
+}
+.commonicon-calendar:before {
+  content: "\e906";
+}
+.commonicon-camera:before {
+  content: "\e907";
+}
+.commonicon-close:before {
+  content: "\e908";
+}
+.commonicon-delete:before {
+  content: "\e909";
+}
+.commonicon-edit:before {
+  content: "\e90a";
+}
+.commonicon-save:before {
+  content: "\e90b";
+}
+.commonicon-view:before {
+  content: "\e90c";
+}
+.commonicon-arrowleft:before {
+  content: "\e900";
+}
+.commonicon-arrowright:before {
+  content: "\e901";
+}
+.commonicon-home:before {
+  content: "\e902";
+}
+.commonicon-rightarrow:before {
+  content: "\e903";
+}
+.commonicon-search:before {
+  content: "\e904";
+}
